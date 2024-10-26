@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Search, MapPin, DollarSign, Star } from 'lucide-react';
+import './App.css'; // Add this line to import the CSS file
 
 const GymSharingApp = () => {
   const [searchQuery, setSearchQuery] = useState('');
